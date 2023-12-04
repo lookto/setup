@@ -1,0 +1,71 @@
+{
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+  "gitlens.telemetry.enabled": false,
+  // Vim Extension
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.handleKeys": {},
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": [
+    "#292e39",
+    "#fff"
+  ],
+  "vim.statusBarColors.insert": [
+    "#a3be8c",
+    "#2e3440"
+  ],
+  "vim.statusBarColors.visual": [
+    "#b48ead",
+    "#2e3440"
+  ],
+  "vim.statusBarColors.visualline": [
+    "#94628a",
+    "#fff"
+  ],
+  "vim.statusBarColors.commandlineinprogress": [
+    "#88c0d0",
+    "#2e3400"
+  ],
+  "vim.statusBarColors.searchinprogressmode": [
+    "#88c0d0",
+    "#2e3400"
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#292e39",
+    "statusBar.noFolderBackground": "#292e39",
+    "statusBar.debuggingBackground": "#292e39",
+    "statusBar.foreground": "#fff",
+    "statusBar.debuggingForeground": "#fff"
+  },
+  // Workbench 
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  // Theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "alt-catppuccin.syntaxMode": "monokai",
+  // Editor
+  "editor.fontFamily": "FuraMono Nerd Font Mono, UbuntuMono Nerd Font Mono, Anonymous Pro",
+  "editor.fontSize": 16,
+  "editor.lineNumbers": "relative",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false,
+  // Editor - Scrolling
+  "editor.scrollBeyondLastLine": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSurroundingLines": 8,
+  // Formatter
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Terminal
+  "terminal.integrated.fontFamily": "FuraMono Nerd Font Mono, UbuntuMono Nerd Font, Anonymous Pro",
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+}
